@@ -3,25 +3,44 @@ body {
     font-family: Arial, sans-serif;
 }
 
- header {
-     width: 1510px;
-     height: 933px;
-     background: #1B3936;
- }
+header {
+    width: 1510px;
+    height: 933px;
+    background: #1B3936;
+}
+
 nav {
     
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 25px 20px;
     background-color: #1B3936;
 }
 
-.nav-left a,
+.nav-left a{
+    padding-left: 95px;
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+        text-align: center;
+        font-family: "Switzer Variable";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal
+    }
 .nav-right a {
+    padding-right: 95px;
     color: white;
     text-decoration: none;
     margin: 0 10px;
+    text-align: center;
+        font-family: "Switzer Variable";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal
 }
 
 .logo {
@@ -122,4 +141,108 @@ nav {
     max-width: 600px;
     margin: 20px auto 0;
     line-height: 1.6;
+}
+
+.logo span{
+
+
+    color: #75FF69;
+        text-align: center;
+        font-family: Oranienbaum;
+        font-size: 28.523px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+
+
+.container {
+    width: 1070px;
+    height: 724px;
+    position: relative;
+}
+
+.layer {
+    position: absolute;
+    text-align: center;
+    font-family: 'Boska Variable', sans-serif;
+    /* Specify your desired font family */
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.layer1 {
+    font-family: "Boska Variable"; 
+    width: 879px;
+    left: 0px;
+    top: -30px;
+    color: white;
+    font-size: 262px;
+    text-transform: capitalize;
+    line-height: 161.76px;
+}
+
+.layer2 {
+    font-family: "Boska Variable";
+    width: 879px;
+    left: 191px;
+    top: 180px;
+
+    color: #75FF69;
+    font-size: 262px;
+    font-style: italic;
+    text-transform: capitalize;
+    line-height: 185.55px;
+}
+
+.layer3 {font-family: "Boska Variable";
+
+    width: 879px;
+    left: 48px;
+    top: 400px;
+    color: white;
+    font-size: 262px;
+    text-transform: capitalize;
+    line-height: 161.76px;
+}
+
+.layer4 {font-family: "Boska Variable"; 
+    left: 444px;
+    top: 390px;
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.layer5 {
+    width: 570px;
+    left: 203px;
+    top: 612px;
+    font-family: "Switzer Variable";
+    color: white;
+    font-size: 18px;
+font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* Specify your desired font family */
+   
+}
+
+.container{
+
+    top:-585px;
+    left: 250px;
+    width: 1070px;
+        height: 724px;
+        flex-shrink: 0;
+
+}
+
+.circle{
+
+    width: 570px;
+        height: 570px;
+        flex-shrink: 0;
+        bottom: 120px;
 }
