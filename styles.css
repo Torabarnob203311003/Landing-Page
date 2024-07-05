@@ -1,11 +1,21 @@
+*{
+ padding: 0;
+ margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
+   
     font-family: Arial, sans-serif;
+  
 }
 
 header {
+    height: 8933px;
     width: 1510px;
-    height: 933px;
+    height: auto;
+    
     background: #1B3936;
 }
 
@@ -245,4 +255,114 @@ font-style: normal;
         height: 570px;
         flex-shrink: 0;
         bottom: 120px;
+}
+.colored-div {
+    width: 1440px;
+    height:1250px;
+    background: #F9F9F9;
+}
+.box {
+    width: 1440px;
+    height: 850px;
+}
+
+.welcome-message {
+    width: 609px;
+    font-size: 24px;
+    font-family: Switzer Variable;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.sec_part{
+    
+    display: flex;
+    margin-top: 35px;
+    margin-left: 65px;
+    justify-content: space-between;
+    left: 25px;
+}
+.sec_lastpart{
+
+margin-top: 85px;
+right: -40px;
+
+}
+.first_c{
+    
+
+margin-top: 85px;
+right: -40px;
+
+}
+.sec_c{
+    
+
+margin-top: 85px;
+right: -40px;
+
+}
+.third_c{
+    
+
+margin-top: 85px;
+right: -40px;
+
+}
+.first_c h2{
+    color: #1B3936;
+        font-family: "Boska Variable";
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+    
+
+
+
+}
+.sec_c h2{
+    color: #1B3936;
+        font-family: "Boska Variable";
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+    
+
+
+
+}
+.third_c h2{
+    color: #1B3936;
+        font-family: "Boska Variable";
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+    
+
+
+
+}
+.first_c p{
+    color: #1B3936;
+    font: 10px;
+
+
+}
+.sec_c p{
+    color: #1B3936;
+    font: 10px;
+
+
+}
+.third_c p{
+    color: #1B3936;
+    font: 10px;
+
+
 }
