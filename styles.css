@@ -414,7 +414,7 @@ width: 401px;
     
  margin-left: 20px;
     
- transform: translateY(-600px) translateX(10px);
+ transform: translateY(-630px) translateX(-70px);
     /* Adjust the value to control the top position */
 }
 .styled-image2 {
@@ -435,7 +435,7 @@ width: 401px;
  margin-left: 20px;
 background: linear-gradient(180deg, #1B3936 0%, rgba(27, 57, 54, 0.00) 89.36%), url(<path-to-image>) lightgray 50% / cover no-repeat;
     
- transform: translateY(-100px) translateX(-700px);
+ transform: translateY(70px) translateX(-830px);
     /* Adjust the value to control the top position */
 }
 .styled-image4 {
@@ -446,7 +446,7 @@ width: 401px;
  margin-left: 20px;
 background: linear-gradient(169deg, #1B3936 15.04%, rgba(27, 57, 54, 0.00) 96.83%), url(<path-to-image>) lightgray 50% / cover no-repeat;
 
- transform: translateY(-580px) translateX(980px);
+ transform: translateY(-320px) translateX(890px);
     /* Adjust the value to control the top position */
 }
 
@@ -462,7 +462,8 @@ color: var(--Screamin-Green, #1B3936);
 
 }
 .styled-text {
-    width: 1184px;
+    width: 1130px;
+    height: 380px;
 color: #678784;
     text-align: center;
     font-family: "Boska Variable";
@@ -471,7 +472,7 @@ color: #678784;
     font-weight: 400;
     line-height: normal;
     text-transform: capitalize;
-    background-color: transparent;
+ transform: translateY(-1520px) translateX(190px);
 }
 
 .styled-text span {
