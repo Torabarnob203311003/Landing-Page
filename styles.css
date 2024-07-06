@@ -1,7 +1,7 @@
 *{
  padding: 0;
  margin: 0;
-box-sizing: border-box;
+/* box-sizing: border-box; */
 }
 
 body {
@@ -9,9 +9,14 @@ body {
     width: 100%;
     height: auto;
     font-family: Arial, sans-serif;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
   
 }
+
+ .main-sec{
+
+     width: 100%;
+ }
 
 header {
     height: 8933px;
@@ -173,6 +178,7 @@ nav {
     height: 724px;
     position: relative;
 }
+
 
 .layer {
     position: absolute;
