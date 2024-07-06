@@ -366,10 +366,123 @@ right: -40px;
 
 
 }
-.styled-image {
-    width: 100%;
+.thrid-sec{
+
+    margin-top: 330px;
+}
+.styleded-image {
+width: 1500px;
     height: 850px;
-    margin-top: 120px;
+    flex-shrink: 0;
 }
 
 
+.label {
+    width: 1083px;
+    height: 880px;
+}
+
+
+.image-container {
+    margin-top: -5px;
+width: 1500px;
+    height: 1709px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1B3936;
+    /* Fallback for browsers that do not support gradients */
+    background: linear-gradient(0deg, #1B3936 0%, #1B3936 100%);
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.gradient-box {
+    width: 100%;
+    height: 342px;
+    background: linear-gradient(272deg, #1B3936 0%, rgba(27, 57, 54, 0) 100%);
+}
+.styled-image {
+width: 401px;
+ height: 850px;
+    
+ margin-top: 120px;
+    
+ margin-left: 20px;
+    
+ transform: translateY(-600px) translateX(10px);
+    /* Adjust the value to control the top position */
+}
+.styled-image2 {
+width: 401px;
+    height: 526px;
+ margin-top: 120px;
+    
+ margin-left: 20px;
+    
+ transform: translateY(-770px) translateX(480px);
+    /* Adjust the value to control the top position */
+}
+.styled-image3 {
+width: 401px;
+    height: 526px;
+ margin-top: 120px;
+    
+ margin-left: 20px;
+background: linear-gradient(180deg, #1B3936 0%, rgba(27, 57, 54, 0.00) 89.36%), url(<path-to-image>) lightgray 50% / cover no-repeat;
+    
+ transform: translateY(-100px) translateX(-700px);
+    /* Adjust the value to control the top position */
+}
+.styled-image4 {
+width: 401px;
+    height: 531px;
+ margin-top: 120px;
+    
+ margin-left: 20px;
+background: linear-gradient(169deg, #1B3936 15.04%, rgba(27, 57, 54, 0.00) 96.83%), url(<path-to-image>) lightgray 50% / cover no-repeat;
+
+ transform: translateY(-580px) translateX(980px);
+    /* Adjust the value to control the top position */
+}
+
+.about_us{
+color: var(--Screamin-Green, #1B3936);
+
+    font-family: "Switzer Variable";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+        transform: translateY(-1000px) translateX(680px);
+
+}
+.styled-text {
+    width: 1184px;
+color: #678784;
+    text-align: center;
+    font-family: "Boska Variable";
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    background-color: transparent;
+}
+
+.styled-text span {
+    color: #678784;
+    font-size: 68px;
+    font-family: 'Boska Variable', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+
+.styled-text .text-color2 {
+    color: white;
+}
