@@ -740,7 +740,7 @@ color: #FFF;
     z-index: 1;
     
     margin-top: -160px;
-    margin-left: -20px;
+    margin-left: -50px;
    
 }
 
@@ -1048,4 +1048,16 @@ color: #1B3936;
 .main-sec{
 
     margin-bottom:15%;
+}
+
+/* styles.css */
+.animated {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.animate-in {
+    opacity: 1;
+    transform: translateY(0);
 }
