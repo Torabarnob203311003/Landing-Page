@@ -707,29 +707,29 @@ color: #FFF;
 
 .image-section {
     position: relative;
-    /* Ensure the image section is positioned relative */
+    
     width: 378px;
     height: 477px;
     flex-shrink: 0;
     margin-right: 20px;
     overflow: hidden;
-    /* Hide any overflow to contain the image */
+  
 }
 
 .image-section img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    /* Ensure the image covers the entire area */
+   
     position: absolute;
-    /* Position the image absolutely within its container */
+   
     top: 0;
     left: 0;
 }
 
 .card {
     position: relative;
-    /* Ensure the card is positioned relative */
+ 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     border-radius: 5px;
@@ -738,10 +738,10 @@ color: #FFF;
     width: 400px;
     height: 150px;
     z-index: 1;
-    /* Ensure the card appears above the image */
+    
     margin-top: -160px;
     margin-left: -50px;
-    /* Adjust margin-top to overlap with the image */
+   
 }
 
 .card:hover {
@@ -751,8 +751,7 @@ color: #FFF;
 .image-card {
     margin-top: -50px;
     
-    /* Ensure the image card is displayed as a flex container */
-   
+    
 }
 .comboimage{
     display: flex;
@@ -774,7 +773,7 @@ color: #1B3936;
     font-family: "Boska Variable";
     font-weight: 400;
         line-height: normal;
-        /* text-transform: capitalize; */
+      
 }
 .card .card-conti p{
     font-size: 16px;
@@ -787,4 +786,138 @@ color: #1B3936;
     color: #bfbbbb
 
     
+}
+
+.intro-section {
+    text-align: center;
+    padding: 50px;
+}
+
+.intro-title {
+    width: 711px;
+    
+    margin-bottom: 10px;
+    margin-left: 10%;
+
+    color: #1B3936;
+        font-family: "Boska Variable";
+        font-size: 68px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+        letter-spacing: none;
+}
+
+.intro-subtitle {
+    color: #1B3936;
+        font-family: "Switzer Variable";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: -67%;
+        margin-top: 5px;
+}
+
+.intro-button {
+    color: #1B3936;
+        text-align: justify;
+        font-family: "Switzer Variable";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 72px;
+        border-radius: 50%;
+        padding:5px 75px 5px 75px;
+        transform: translate(-227%, 0%);
+        margin-top: 40px;
+        background-color: #fff;
+
+
+       
+    cursor: pointer;
+}
+
+.intro-logo {
+    transform: translate(30%, -90%);
+}
+.intro-logo2{
+    transform: translate(-200%, -70%);
+}
+
+.footer-section {
+    display: flex;
+    background-color: #1b3131;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer-about,
+.footer-rooms,
+.footer-contact {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.footer-text {
+    font-size: 1.2em;
+}
+
+.footer-about {
+    background-color: #b4e197;
+    color: #000;
+}
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.footer-left-icon {
+   
+    background-color: #75FF69;
+}
+
+.footer-right-icon {
+    background-color: #1B3936;
+}
+
+.bottom-bar {
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.bottom-bar-item {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 0.9em;
+}
+
+.style_footer{
+
+    transform: translate(-160%, 250%);
+    
+
+
+
 }
