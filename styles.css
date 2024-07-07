@@ -791,6 +791,7 @@ color: #1B3936;
 .intro-section {
     text-align: center;
     padding: 50px;
+    margin-bottom: -8%;
 }
 
 .intro-title {
@@ -853,6 +854,9 @@ color: #1B3936;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    width: 100%;
+        height: 320px;
+        flex-shrink: 0;
 }
 
 .footer-about,
@@ -861,6 +865,7 @@ color: #1B3936;
     flex: 1;
     text-align: center;
 }
+
 
 .footer-title {
     font-size: 2em;
@@ -872,14 +877,103 @@ color: #1B3936;
 }
 
 .footer-about {
-    background-color: #b4e197;
+    background-color:#75FF69;
+ height: 360px;
     color: #000;
+    margin-left: -20px;
+    
+}
+.footer-about h2 {
+  
+    color: #1B3936;
+        font-family: "Boska Variable";
+        font-size: 68px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+        margin-top:20%;
+}
+.footer-about p {
+  
+    
+color: #1B3936;
+
+    font-family: "Switzer Variable";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.footer-about img {
+  
+    color: #1B3936;
+    transform: translate(350%, 70%);
+    
+
+}
+.footer-rooms p{
+
+    color: #FFF;
+        font-family: "Switzer Variable";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+.footer-rooms h2{
+
+color: #FFF;
+    font-family: "Boska Variable";
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.footer-rooms img{
+
+transform: translate(230%, -115%);
+}
+.footer-rooms {
+
+         margin-top: 10%;
 }
 
 .footer-icons {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+.footer-contact p{
+    color: #FFF;
+        font-family: "Switzer Variable";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        /* gap: 20px; */
+
+
+}
+.footer-contact h2{
+    color: #FFF;
+        font-family: "Boska Variable";
+        font-size: 68px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+
+
+}
+.footer-contact img{
+transform: translate(230%, -115%);
+
+}
+.footer-contact {
+margin-top: 10%;
+
 }
 
 .footer-icon {
@@ -905,12 +999,27 @@ color: #1B3936;
     color: #000;
     text-align: center;
     padding: 10px 0;
+    margin-bottom: 10px;
 }
 
-.bottom-bar-item {
+.bottom-bar-item ,
+.bottom-bar-item1, 
+.bottom-bar-item2, 
+.bottom-bar-item3, 
+.bottom-bar-item4, 
+.bottom-bar-item5, 
+.bottom-bar-item6{
     display: inline-block;
     margin: 0 10px;
     font-size: 0.9em;
+    color: #1B3936;
+        font-family: "Switzer Variable";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        justify-content: space-between;
+    
 }
 
 .style_footer{
@@ -920,4 +1029,12 @@ color: #1B3936;
 
 
 
+}
+.second-work{
+
+    margin-bottom: -5%;
+}
+.main-sec{
+
+    margin-bottom:15%;
 }
